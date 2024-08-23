@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-.container {
+.headsection {
     text-align: center;
     font-family: sans-serif;
 }
@@ -53,6 +53,6 @@ body {
     margin-left: 86px;
 }
 
-.atag1 {
+a{
     color: black;
 }
