@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    justify-content: center;
     font-weight: lighter;
     max-width: 100%;
 }
@@ -11,6 +10,7 @@
     padding: 15px;
     text-align: center;
     font-family: sans-serif;
+    justify-content: center;
 }
 
 .heading {
@@ -27,28 +27,41 @@
 }
 
 .middle {
-    padding: 50px;
+    padding: 36px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     background-color: lightgray;
     gap: 34px;
     font-family: sans-serif;
 }
 
+
+.images1 {
+    object-fit: contain;
+    max-width: 418px;
+}
+
 .Paragarph2 {
-    margin-top: 12px;
     align-content: center;
+    margin-top: 25px;
 }
 
 .spancolour {
     color: rgb(181, 90, 90);
 }
 
+.down {
+    
+    text-align: center; 
+    
+}
+
 .images2 {
-    padding: 32px;
-    display: flex;
-    justify-content: center;
+    object-fit: contain;
+    width: 980px;
+    display: inline-block; 
+    padding: 36px;
+    
 }
 
 a {
